@@ -7,6 +7,8 @@ mirai的maven基础模板
 ```
  val bot = MiraiConsole.addBot(QQ账号, "QQ密码").alsoLogin()
 ```
+和修改kotlin文件夹的权限，如下，才能在idea里启动程序
+<img src="./12.jpg">
 然后就可以运行程序了
 ### 如果更改目录或者类名，请一并修改下面的内容
 ```
