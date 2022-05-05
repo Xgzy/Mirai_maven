@@ -5,14 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>Mirai_maven</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
+    <artifactId>Plugin</artifactId>
+    <version>1.0</version>
+    <!--  请修改成自己的jdk版本  -->
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
     <dependencies>
+        <!--   下面是mirai的包     -->
         <dependency>
             <groupId>net.mamoe</groupId>
             <artifactId>mirai-console</artifactId>
@@ -23,5 +24,17 @@
             <artifactId>mirai-core-jvm</artifactId>
             <version>2.11.0-M2.2</version>
         </dependency>
+        <dependency>
+            <groupId>net.mamoe</groupId>
+            <artifactId>mirai-console-terminal</artifactId>
+            <version>2.11.0-RC</version>
+        </dependency>
+        <!--   下面是支持kotlin的     -->
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-stdlib-jdk8</artifactId>
+            <version>1.6.20-RC2</version>
+        </dependency>
+
     </dependencies>
 </project>
