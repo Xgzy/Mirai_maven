@@ -21,7 +21,7 @@ suspend fun main() {
     pluginInstance.load() // 主动加载插件, Console 会调用 Plugin.onLoad
     pluginInstance.enable() // 主动启用插件, Console 会调用 Plugin.onEnable
 
-    val bot = MiraiConsole.addBot(1545305779, "78932166.").alsoLogin() // 登录一个测试环境的 Bot
+    val bot = MiraiConsole.addBot(1545305779, "QQ密码").alsoLogin() // 登录一个测试环境的 Bot
 
     MiraiConsole.job.join()
 }
